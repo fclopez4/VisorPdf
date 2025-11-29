@@ -24,5 +24,7 @@ javac -d bin -cp bin com/fcl/demo/PdfViewerDemo.java
 ```
 * Ejecución de la prueba de concepto
 ```bash
-java -Djava.library.path=/lib -cp bin com.fcl.demo.PdfViewerDemo
+java -Djava.library.path=./lib -cp bin com.fcl.demo.PdfViewerDemo
 ```
+
+Y ya, ya con eso se debe poder visualizar documentos PDF en el programa java haciendo uso de la biblioteca nativa.
