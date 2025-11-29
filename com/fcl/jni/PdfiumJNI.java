@@ -10,8 +10,8 @@ public class PdfiumJNI {
     
     // Cargar la biblioteca nativa
     static {
-        System.loadLibrary("libpdfium");
-        System.loadLibrary("libpdfium-jni");
+        System.loadLibrary("pdfium");
+        System.loadLibrary("pdfium-jni");
     }
     
     // ========== Constantes de Error ==========
